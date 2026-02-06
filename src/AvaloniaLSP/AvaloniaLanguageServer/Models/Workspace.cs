@@ -36,7 +36,6 @@ public class Workspace
         if (slnFile == null)
             return null;
 
-
         var slnFilePath = Path.Combine(Path.GetTempPath(), $"{slnFile}.json");
 
         if (!File.Exists(slnFilePath))
@@ -51,7 +50,8 @@ public class Workspace
 
     string? SolutionName(string RootPath)
     {
-        var slnFiles = Directory.EnumerateFiles(RootPath, "*.sln", SearchOption.AllDirectories);
+        string[] slnExtensions = ["sln", "slnx"];
+        var slnFiles = slnExtensions.SelectMany(ext => Directory.EnumerateFiles(RootPath, $"*.{ext}", SearchOption.AllDirectories));
         foreach (string slnFile in slnFiles)
         {
             return Path.GetFileName(slnFile);
