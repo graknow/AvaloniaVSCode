@@ -4,7 +4,7 @@ Welcome to Avalonia Extension for VS Code! We appreciate your interest in contri
 
 ## System Requirements
 
-1. dotnet 9.0, you can download it from [here](https://dotnet.microsoft.com/en-us/download)
+1. dotnet 10.0, you can download it from [here](https://dotnet.microsoft.com/en-us/download)
 2. NodeJS, npm 
    You can get NodeJS and npm using NVM (Node Version Manager) by running the following command:
    
@@ -23,7 +23,7 @@ Welcome to Avalonia Extension for VS Code! We appreciate your interest in contri
 
 1. Fork and Clone the repository
 
-    `git clone --recursive https://github.com/AvaloniaUI/AvaloniaVSCode`
+    `git clone --recursive https://github.com/graknow/AvaloniaVSCode`
 
 2. Update submodules
 This extension uses git submodules to pull in the Solution Parser and the Avalonia Visual Studio repo. Run the following to pull in the submodules:

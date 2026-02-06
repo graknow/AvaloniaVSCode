@@ -6,7 +6,7 @@ The Avalonia for Visual Studio Code Extension contains support for Avalonia XAML
 
 Follow the [contribution guide](CONTRIBUTING.md) if you want to help us build the extension
 
-> **NOTE:** Requires .NET 9.0
+> **NOTE:** Requires .NET 10.0
 
 ## Getting Started
 
