@@ -155,6 +155,7 @@
   },
   "dependencies": {
     "@vscode/codicons": "^0.0.33",
+    "@vscode/vsce": "^3.7.1",
     "@vscode/webview-ui-toolkit": "^1.2.2",
     "@xmldom/xmldom": "^0.8.10",
     "bson": "^5.4.0",
